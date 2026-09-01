@@ -10,31 +10,50 @@
 </head>
 
 <body>
-    <div class="header">
+   <!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Place</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
         <h1 class="visually-hidden">Our place sayti - Asosiy sahifa</h1>
 
         <div class="container">
-            <div class="header-container">
-               <div class="header-box">
-                <ul class="header__list">
-                    <li class="header-item">
-                        <a class="header-item" href="#">Shop</a>
-                        <a class="header-item" href="#">Always Pan</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-item" href="#">Our place</a>
-                    </li>
-                    <li class="header-item">
-                        <a class="header-item" href="#">Mission</a>
-                        <a class="header-item" href="#">FAQS</a>
-                        <a class="header-item0" href="#">0</a>
-                    </li>
-                </ul>
-               </div>
-            </div>
-        </div>
+            <nav class="header__nav">
+                <a class="header__logo" href="#">Our place</a>
 
-    </div>
+                <div class="header__menu" id="navMenu">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__link" href="#">Shop</a></li>
+                        <li class="header__item"><a class="header__link" href="#">Always Pan</a></li>
+                    </ul>
+
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__link" href="#">Mission</a></li>
+                        <li class="header__item"><a class="header__link" href="#">FAQS</a></li>
+                        <li class="header__item">
+                            <a class="header__cart" href="#">0</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="burger" id="burgerBtn" aria-label="Menyuni ochish">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
 
     <script src="./js/main.js"></script>
 </body>
