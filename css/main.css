@@ -11,3 +11,40 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    align-items: center;
+    text-align: center;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+    box-shadow: 1px 8px 6px rgb(237, 237, 237);
+    background-color: rgb(241, 240, 239);
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+.header-item{
+    display: block;
+    display: flex;
+    gap: 22px;
+}
+.header-item0{
+    background-color: #C87B5E;
+    padding: 2px 4px;
+    border-radius: 50%;
+    color: aliceblue;
+}
