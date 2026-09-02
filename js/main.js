@@ -6,7 +6,6 @@ burgerBtn.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-// Menyudagi istalgan havolaga bosilganda menyuni yopish
 document.querySelectorAll('.header__link').forEach(link => {
     link.addEventListener('click', () => {
         burgerBtn.classList.remove('active');
