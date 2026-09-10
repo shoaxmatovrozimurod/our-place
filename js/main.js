@@ -1,3 +1,4 @@
+ AOS.init();
 const burgerBtn = document.getElementById('burgerBtn');
 const navMenu = document.getElementById('navMenu');
 
